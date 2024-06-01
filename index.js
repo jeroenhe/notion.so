@@ -5,7 +5,7 @@ const {app, BrowserWindow} = electron;
 let win;
 
 function createWindow() {
-  win = new BrowserWindow({width: 1300, height: 900});
+  win = new BrowserWindow({width: 978, height: 998});
   win.loadURL("https://www.notion.so");
   win.on('closed', () => {
     win = null;

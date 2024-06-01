@@ -1,10 +1,10 @@
 {
   "src": "dist/notion.so-linux-x64/",
   "description": "Electron based desktop app for notion.so",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "dest": "dist/installers/",
   "arch": "amd64",
-  "icon": "icons/icon.png",
+  "icon": "icons/icon_512px.png",
   "name": "notion.so",
   "productName": "Notion",
   "categories": [

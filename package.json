@@ -1,20 +1,20 @@
 {
   "name": "notion.so",
   "description": "Electron based desktop app for notion.so.",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . notion.so --overwrite --icon=icons/icon.icns --platform=linux --arch=x64 --out=dist",
-    "deb": "npm run build && electron-installer-debian --config config.json"
+    "build": "electron-packager . notion.so --overwrite --icon=icons/icon.icns --platform=linux --arch=x64 --out=dist --electronVersion=18.3.2",
+    "deb": "npm run build && electron-installer-debian --config config.json",
+    "deb-install": "sudo dpkg -i dist/notion.so_2.0.0_amd64.deb"
   },
   "author": "nick@rokkincat.com",
   "license": "ISC",
   "dependencies": {
-    "electron-packager": "^7.1.0",
-    "electron-prebuilt": "^1.2.5"
+    "@electron/packager": "^18.3.2"
   },
   "devDependencies": {
-    "electron-installer-debian": "^0.5.2"
+    "electron-installer-debian": "^3.2.0"
   }
 }
