@@ -18,7 +18,7 @@ package in `dist/installers/`.
 Install the deb package using the following command:
 
 ```bash
-sudo dpkg -i dist/installers/notion.so_1.0.1_amd64.deb
+sudo dpkg -i dist/installers/notion.so_2.0.0_amd64.deb
 ```
 
 Uninstall the app using the following command:
